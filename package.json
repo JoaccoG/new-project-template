@@ -1,0 +1,16 @@
+{
+  "name": "new-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve .",
+    "git-update": "git checkout main && git fetch -p && git pull && npm install"
+  },
+  "author": "Joaquin Godoy",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.1.2"
+  }
+}
