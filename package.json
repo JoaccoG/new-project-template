@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve .",
-    "git-update": "git checkout main && git fetch -p && git pull && npm install"
+    "update-git": "git checkout main && git fetch -p && git pull && npm list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaccoG/new-project-template.git"
   },
   "author": "Joaquin Godoy",
   "license": "ISC",
-  "dependencies": {
-    "serve": "^14.1.2"
-  }
+  "bugs": {
+    "url": "https://github.com/JoaccoG/new-project-template/issues"
+  },
+  "homepage": "https://github.com/JoaccoG/new-project-template#readme"
 }
