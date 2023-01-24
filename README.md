@@ -35,4 +35,5 @@ En caso de hacerlo, todos los archivos que se muevan deberán volver a ser refer
 2. Eliminar el archivo [README.md](https://github.com/JoaccoG/new-project-template/blob/main/README.md)
 3. Modificar las propiedades necesarias dentro de [package.json](https://github.com/JoaccoG/new-project-template/blob/main/package.json) para que concuerden con el proyecto nuevo _(name, description, author, etc)_.
 4. Ejecutar `npm install` para tener **Husky** en el proyecto.
-5. **(opcional)** Modificar los parámetros dados a los que necesitemos dentro de los diferentes archivos de la plantilla _([index.html](https://github.com/JoaccoG/new-project-template/blob/main/index.html), [style.css](https://github.com/JoaccoG/new-project-template/blob/main/css/style.css), etc)_.
+5. **(solo macOS)** Ejecutar, en el root del nuevo proyecto `chmod ug+x .husky/*` y `chmod ug+x .git/hooks/*` para dar permiso de ejecutable a los hooks de Husky.
+6. **(opcional)** Modificar los parámetros dados a los que necesitemos dentro de los diferentes archivos de la plantilla _([index.html](https://github.com/JoaccoG/new-project-template/blob/main/index.html), [style.css](https://github.com/JoaccoG/new-project-template/blob/main/css/style.css), etc)_.
