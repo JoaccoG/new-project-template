@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JoaccoG/new-project-template/issues"
   },
-  "homepage": "https://github.com/JoaccoG/new-project-template#readme"
+  "homepage": "https://github.com/JoaccoG/new-project-template#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
 }
